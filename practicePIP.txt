@@ -1,0 +1,20 @@
+
+pip list-list installed packages associated with the virtual environment
+
+deactivate-deactivate virtual environment. To activate, go to the environment folder, first create the virtual environment by typing "python3 -m venv name of environment".  Then activate by typing in the folder "source name of environment/bin/activate"
+
+pip3 list-When virtual environment is deactivated, pip list doesn't work. However, pip3 list still shows installed packages.
+
+source myEnvironments/py3Env/bin/activate-activate the virtual environment
+
+pip install Django==1.11.9-installs Django in the virtual environment
+
+pip freeze-lists packages in another format:  package names followed by == and version
+
+pip freeze > requirements.txt - outputs the list of installed packages into the text file
+
+pip uninstall Django-Uninstall Django
+
+pip show Django-shows information about the Django package
+
+pip search Flask-searches for packages containing the name "Flask"
